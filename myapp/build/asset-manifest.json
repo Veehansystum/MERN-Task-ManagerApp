@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MERN-Task-Manager-App-deploy/static/css/main.be6514b0.css",
+    "main.js": "/MERN-Task-Manager-App-deploy/static/js/main.99a7f834.js",
+    "index.html": "/MERN-Task-Manager-App-deploy/index.html",
+    "main.be6514b0.css.map": "/MERN-Task-Manager-App-deploy/static/css/main.be6514b0.css.map",
+    "main.99a7f834.js.map": "/MERN-Task-Manager-App-deploy/static/js/main.99a7f834.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be6514b0.css",
+    "static/js/main.99a7f834.js"
+  ]
+}
