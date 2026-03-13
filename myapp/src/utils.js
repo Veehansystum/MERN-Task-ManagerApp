@@ -3,4 +3,4 @@ import { toast } from "react-toastify";
 export const notify = (message,type)=>{
     toast[type](message);
 }
-export const API_URL = 'https://mern-task-manager-app-api-pearl.vercel.app';
+export const API_URL = 'https://mern-task-manager-app-appii.vercel.app';
