@@ -10,7 +10,11 @@ const cors =require('cors');
  app.get('/',(req,res)=>{
     res.send('Hello from the server ..');
 })
-app.use(cors())
+app.use(cors({
+ origin:"*",
+ methods:['GET','POST','PUT','DELETE'],
+ allowedHeaders:['Content-Type]
+}));
 app.use(bodyParser.json());
 app.use('/tasks',TaskRouter)
 app.listen(PORT, () => {
